@@ -130,7 +130,6 @@
 
 .digits {
   margin-top: 100px;
-  margin-bottom: 100px;
 }
 
 .digits_title {
@@ -178,4 +177,54 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
+}
+
+.feynman {
+  margin-top: 100px;
+  height: 890px;
+  position: relative;
+  background-color: #f2f2f2;
+  z-index: 1;
+  padding-top: 100px;
+}
+
+.feynman_title {
+  width: 648px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 120px;
+  font-weight: 600;
+  margin-top: 0px;
+}
+
+
+.feynman_subtitle {
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feynman_illustration {
+  width: 867px;
+  height: 637px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.feynman_link {
+  position: absolute;
+  right: 48px;
+  top: 50%;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  color: #2f80ed;
 }
