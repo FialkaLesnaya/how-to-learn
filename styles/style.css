@@ -94,7 +94,6 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
-  margin-bottom: 100px;
   width: 80%;
 }
 
@@ -125,6 +124,58 @@
 
 .two-columns_span-accent {
   line-height: 34px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.digits {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.digits_title {
+  width: 60%;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.digits_subtitle {
+  width: 60%;
+  margin-top: 20px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.digits_table {
+  display: flex;
+  justify-content: space-between;
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+}
+
+.digits_cell {
+  width: 250px;
+  margin-top: 60px;
+}
+.digits_text {
+  margin-top: 20px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.digits_heading {
+  line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
 }
