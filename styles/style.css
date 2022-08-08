@@ -33,12 +33,9 @@
   margin-top: 80px;
 }
 
-.logo {
+.logo_place_header {
   position: absolute;
   z-index: 3;
-}
-
-.logo_place_header {
   top: 30px;
   left: 64px;
 }
