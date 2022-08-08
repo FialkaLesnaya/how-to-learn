@@ -93,10 +93,8 @@
 .two-columns {
   display: flex;
   justify-content: space-between;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 100px;
   width: 80%;
+  margin: 100px auto 0 auto;
 }
 
 .two-columns_brief {
@@ -149,23 +147,20 @@
 
 .digits_subtitle {
   width: 60%;
-  margin-top: 20px;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
   color: #000000;
+  margin: 20px auto 0 auto;
 }
 
 .digits_table {
   display: flex;
   justify-content: space-between;
   width: 1100px;
-  margin-left: auto;
-  margin-right: auto;
   flex-wrap: wrap;
+  margin: 0 auto;
 }
 
 .digits_cell {
@@ -211,9 +206,6 @@
 
 
 .feynman_subtitle {
-  margin-top: 70px;
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
   line-height: 51px;
   font-size: 36px;
@@ -221,6 +213,7 @@
   color: #000000;
   z-index: 2;
   position: relative;
+  margin: 70px auto 0 auto;
 }
 
 .feynman_illustration {
@@ -282,12 +275,11 @@
   margin-bottom: 90px;
   display: flex;
   justify-content: space-between;
-  margin-left: auto;
-  margin-right: auto;
   flex-wrap: wrap;
   width: 1100px;
   z-index: 2;
   position: relative;
+  margin: 0 auto 90px auto;
 
 }
 
@@ -334,8 +326,7 @@
   color: white;
   display: flex;
   justify-content: space-between;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
 }
 
 .footer_columns_content_copyright {
