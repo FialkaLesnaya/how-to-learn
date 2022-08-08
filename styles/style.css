@@ -133,6 +133,7 @@
 
 .digits {
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .digits_title {
@@ -185,7 +186,6 @@
 }
 
 .feynman {
-  margin-top: 100px;
   height: 890px;
   position: relative;
   background-color: #f2f2f2;
