@@ -64,6 +64,7 @@
   font-weight: normal;
   z-index: 3;
   color: #000000;
+  margin: 0;
 }
 
 .header__main-illustration {
@@ -112,16 +113,17 @@
   min-width: 784px
 }
 
-.two-columns_paragraph:nth-child(2) {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
 .two-columns_paragraph {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
   color: #000000;
+  margin: 0;
+}
+
+.two-columns_paragraph:nth-child(2) {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .two-columns_span-accent {
@@ -170,6 +172,7 @@
   font-size: 18px;
   font-weight: normal;
   color: #000000;
+  margin-bottom: 0;
 }
 
 .table_heading {
@@ -296,6 +299,7 @@
   font-size: 18px;
   font-weight: normal;
   color: white;
+  margin-bottom: 0;
 }
 
 .kaufman_triangle {
@@ -342,6 +346,8 @@
 .footer_column-links {
   margin-top: 20px;
   margin-bottom: 16px;
+  padding-left: 0;
+  list-style-type: none;
 }
 
 .footer_social-icon {
