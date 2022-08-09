@@ -17,6 +17,8 @@
   display: flex;
   align-items: center;
   background-color: #f2f2f2;
+  position: relative;
+  overflow: hidden;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -25,6 +27,11 @@
   color: #fff;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.logo {
+  width: 228px;
+  height: 32px;
 }
 
 .logo__place_header {
@@ -81,11 +88,14 @@
   text-decoration: none;
 }
 
+.description {
+  margin: 100px auto 0 auto;
+}
+
 .two-columns {
   display: flex;
   justify-content: space-between;
   width: 80%;
-  margin: 0 auto;
 }
 
 .two-columns__brief {
@@ -120,6 +130,10 @@
   font-size: 24px;
   font-weight: 600;
   color: #000;
+}
+
+.digits {
+  margin: 100px 0;
 }
 
 .section-title {
@@ -260,7 +274,7 @@
   position: relative;
 }
 
-.table_+cell_dark {
+.table__cell_dark {
   margin-top: 80px;
   width: 200px;
 }
@@ -340,12 +354,4 @@
   font-weight: normal;
   color: #fff;
   text-decoration: none;
-}
-
-.section__margin-top {
-  margin-top: 100px;
-}
-
-.section__margin-bottom {
-  margin-bottom: 100px;
 }
