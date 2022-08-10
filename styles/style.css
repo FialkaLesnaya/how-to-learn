@@ -71,8 +71,6 @@
   width: 765px;
   height: 608px;
   z-index: 2;
-  object-fit: contain;
-  object-position: 50% 50%;
 }
 
 .header__square-pic {
@@ -247,33 +245,33 @@
   position: relative;
 }
 
-.section-title__theme_dark {
+.section-title_theme_dark {
   color: #fff;
   z-index: 2;
   position: relative;
 }
 
-.section-subtitle__theme_dark {
+.section-subtitle_theme_dark {
   color: #fff;
   z-index: 2;
   position: relative;
 }
 
-.table__theme_dark {
+.table_theme_dark {
   z-index: 2;
   position: relative;
 }
 
-.table__cell_dark {
+.table_cell_dark {
   margin-top: 80px;
   width: 200px;
 }
 
-.table__heading_theme_dark {
+.table_heading_theme_dark {
   color: #fff;
 }
 
-.table__text_theme_dark {
+.table_text_theme_dark {
   color: #fff;
 }
 
@@ -285,7 +283,6 @@
   height: 877px;
   z-index: 1;
   top: 0;
-  background-size: cover;
 }
 
 .footer {
