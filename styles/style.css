@@ -89,13 +89,14 @@
 }
 
 .description {
-  margin: 100px auto 0 auto;
+  margin-top: 100px;
 }
 
 .two-columns {
   display: flex;
   justify-content: space-between;
   width: 80%;
+  margin: auto;
 }
 
 .two-columns__brief {
@@ -262,16 +263,16 @@
   position: relative;
 }
 
-.table_cell_dark {
+.table__cell_dark {
   margin-top: 80px;
   width: 200px;
 }
 
-.table_heading_theme_dark {
+.table__heading_theme_dark {
   color: #fff;
 }
 
-.table_text_theme_dark {
+.table__text_theme_dark {
   color: #fff;
 }
 
@@ -295,16 +296,19 @@
   width: 90%;
   padding-top: 60px;
   padding-bottom: 40px;
-  color: #fff;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
 }
 
-.footer__columns_content_copyright {
-  flex-basis: 711px;
+.footer__columns_content {
   display: flex;
   flex-direction: column;
+  color: #fff;
+}
+
+.footer__columns_content_copyright {
+  flex-basis: 711px;
   justify-content: space-between;
 }
 
