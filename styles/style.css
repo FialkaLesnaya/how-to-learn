@@ -104,7 +104,7 @@
 .two-columns__brief {
   width: 175px;
   line-height: 1.2;
-  font-size: 19px;
+  font-size: 18px;
   font-weight: normal;
   color: #2f80ed;
   margin: 0;
@@ -166,6 +166,7 @@
   flex-wrap: wrap;
   margin: 0 auto;
   list-style-type: none;
+  padding-left: 0;
 }
 
 .table__cell {
@@ -299,13 +300,13 @@
   margin: 0 auto;
 }
 
-.footer__columns_content {
+.footer__column {
   display: flex;
   flex-direction: column;
   color: #fff;
 }
 
-.footer__columns_content_copyright {
+.footer__column_content_copyright {
   flex-basis: 711px;
   justify-content: space-between;
 }
